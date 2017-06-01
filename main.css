@@ -45,8 +45,11 @@ img {
 }
 body {
   margin: 0;
+  font-family: 'barrio', sans-serif;
+  background-color: lightblue;
 }
 footer {
+  font-family: sans-serif;
   background-color: deepskyblue;
   border: 4px outset #998870;
   text-align: center;
@@ -58,18 +61,6 @@ footer {
   bottom: 0;
   margin: 0 auto;
 }
-
-
-
-/************************************************
-Flexbox Modifications
-*************************************************/
-
-
-
-
-
-
 
 /************************************************
 Contact Page Styles
@@ -114,28 +105,6 @@ Contact Page Styles
   order: -2;
 }
 
-body {
-  margin: 0;
-}
-footer {
-  background-color: deepskyblue;
-  border: 4px outset #998870;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-/*Anchoring footer to the bottom of the page*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-}
-
-
-body {
-	font-family: 'barrio', sans-serif;
-	background-color: lightblue;	
-}
-
 #headline {
 	border: 3px solid;
 	width: 70%;
@@ -153,14 +122,3 @@ body {
 #individual {
 	display: none;
 }
-
-
-
-
-
-
-
-body {
-  margin: 0;
-}
-
