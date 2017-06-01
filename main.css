@@ -1,0 +1,111 @@
+
+
+
+/************************************************
+Flexbox Modifications
+*************************************************/
+
+
+
+
+
+
+
+/************************************************
+Contact Page Styles
+*************************************************/
+.flexform {
+	display: flex;
+	flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.contact {
+  flex-direction: column; 
+  flex-wrap: wrap;
+  margin: 20px;
+  flex: 1 200px;
+}
+
+.contactSection{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.flexitem1,
+.flexitem2,
+.flexitem3 {
+   flex-direction: column;
+   
+}
+
+
+/************************************************
+About Page Styles
+*************************************************/
+
+body{ 
+	font: 20px font-family: 'Barrio', cursive
+	background-color: lightblue;	 	
+
+ 
+}
+header{
+	background-color: blue;
+	color: white;
+	border-top: red 5px solid;
+	border-bottom: red 5px solid;
+}
+
+header a{
+	font-size: 14px;
+	text-decoration: bold;
+	color: white;
+
+}
+
+.container{ 
+	margin: auto;
+	width: 100%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
