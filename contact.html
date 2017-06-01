@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body>
+<!--- Contact Form, may also need to include purchase order form unless this is basically an online catalog... -->
+	<form action="" method="post" class="flexform">
+
+		<div class="contact general flexitem1">
+			<legend class="contactSection">Questions? Comments? Concerns? Contact us!</legend>
+
+			<label for="user_name">Name:</label>
+			<input type="text" id="user_name" required="required">
+			<br>
+
+			<label for="user_email">E-mail:</label>
+			<input type="email" id="user_email" required="required">
+			<br>
+
+			<label for="user_comments">How can we help?</label><br>
+			<textarea id="user_comments" cols="35" rows="7"></textarea>
+			<br>
+			<button type="submit">Submit</button>
+			<br>
+		</div> <!--- end of 'general contact' div -->
+
+		<div class="contact purchase flexitem2">
+			<legend class="contactSection">Ready to make your purchase?</legend>
+
+			<label for="purchase_name">Name:</label><br>
+			<input type="text" id="purchase_name">
+			<legend>Shipping address</legend>
+			<label for="address1">Address Line 1:</label>
+			<input type="text" id="address1">
+			<label for="address2">Address Line 2:</label>
+			<input type="text" id="address2">
+			<label for="city">City:</label>
+			<input type="text" id="city">
+			<label for="state">State:</label>
+			<input type="text" id="state" maxlength="2">
+			<label for="zip">Zip Code:</label>
+			<input type="number" id="zip" maxlength="7">
+
+			<input type="checkbox" id="terms">I have read and understood the <a href="https://nervouscitizen.files.wordpress.com/2012/12/foghorn-leghorn-its-a-joke.png">Terms and Conditions</a> of purchase.
+			<label for="creditcard">Credit Card Number:</label>
+			<input type="number" name="creditcard">
+			<label for="seccode">Security code:</label>
+			<input type="number" name="seccode" maxlength="4">
+			<input type="checkbox" id="billing">My billing address is the same as my shipping address.
+		</div>
+
+		<br>
+		<br>
+
+		<div class="contact testimony flexitem3">
+
+			<legend class="contactSection">Are you already a customer? Leave us a review and share your story!</legend>
+			<label for="testimony_name">Name:</label>
+			<input type="text" id="testimony_name" required="required">
+			<br>
+
+			<label for="testimony_email">E-mail:</label>
+			<input type="email" id="testimony_email" required="required">
+			<br>
+
+			<label for="testimony_url">Website:</label>
+			<input type="URL" id="testimony_url" required="required">
+			<br>
+
+			<label for="testimony_comments">Tell us about your experience.</label><br>
+			<textarea id="testimony_comments" cols="35" rows="7"></textarea>
+
+		</div>  <!---end of testimony input div -->
+
+
+
+
+	</form>
+
+</body>
+
+</html>
