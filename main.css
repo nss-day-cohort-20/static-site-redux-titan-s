@@ -86,14 +86,30 @@ footer {
 /************************************************
 About Page Styles
 *************************************************/
+body{font:15px font-family: 'Barrio', cursive;
+margin: 0;
 
-.nav-bar {
-  background: skyblue;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 12%;
-  border: ;
 }
+
+.container{ 
+  width: 100%;
+  margin: auto;
+  text-align: center
+  font: bold;
+  
+} 
+
+header{
+  margin: auto;
+
+
+
+
+} 
+
+.nav-bar{
+  float: left;
+  display: inline;
+}
+
 
