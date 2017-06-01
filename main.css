@@ -59,6 +59,8 @@ footer {
   margin: 0 auto;
 }
 
+
+
 /************************************************
 Flexbox Modifications
 *************************************************/
@@ -97,13 +99,18 @@ Contact Page Styles
    
 }
 
-
-
-
-
-
-
-
-
-
-
+body {
+  margin: 0;
+}
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
