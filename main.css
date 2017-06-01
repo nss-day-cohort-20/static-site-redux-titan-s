@@ -1,8 +1,68 @@
-h1 {
-font-family: 'Barrio', cursive;
 
+.nav-bar {
+  background: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 12%;
+  border: ;
+}
+.list li a{
+  color: white;
+  text-decoration: none;
+}
+.list li {
+list-style: none;
 }
 body {
-font-family: 'Barrio', cursive;
-
+  margin: 0;
 }
+
+
+
+/************************************************
+Flexbox Modifications
+*************************************************/
+
+
+
+
+
+
+
+/************************************************
+Contact Page Styles
+*************************************************/
+.flexform {
+	display: flex;
+	flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.contact {
+  flex-direction: column; 
+  flex-wrap: wrap;
+  margin: 20px;
+  flex: 1 200px;
+}
+
+.contactSection{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.flexitem1,
+.flexitem2,
+.flexitem3 {
+   flex-direction: column;
+   
+}
+
+
+
+
+
+
+
+
