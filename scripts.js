@@ -73,17 +73,20 @@ function iterateAllArray(arr) {
 
 		var productCard = `<div class="card" id="${cardArrayProducts[i].id}">
 
-								<img src=""
+								<img src="${cardArrayProducts[i].url}" alt="$cardArray[i].name}">
 
+								<div class="nameContainer">
+								<h3>${cardArrayProducts[i].name}</h3>
+								</div>
 
+								<div class="descriptionContainer">
+								<p>${cardArrayProducts[i].description}</p>
+								</div>
 
+								<a href="contact.html" target="_blank">
+								<button>Buy Now</button> </a>
 
-
-
-
-
-
-							</div>`
+								</div><!---end of card with id ${cardArrayProducts[i].id}-->`
 
 	
 
