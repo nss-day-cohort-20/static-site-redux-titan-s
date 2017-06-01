@@ -59,6 +59,14 @@ Contact Page Styles
    
 }
 
+.flexitem3{
+  order: -1;
+}
+
+.flexitem1{
+  order: -2;
+}
+
 .purchase {
   border: 3px ridge orange;
 }
