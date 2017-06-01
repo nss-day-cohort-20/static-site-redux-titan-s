@@ -1,15 +1,15 @@
 
 //need to input the image URLs to the image variables
-var imgAthena = "";
-var imgKronos = "";
-var imgArtemis = "";
-var imgHephaestus = "";
-var imgHades = "";
-var imgAphrodite = "";
+var imgAthena = "images/Athena.jpg";
+var imgKronos = "images/ChronosStaff.jpg";
+var imgArtemis = "images/Artemis.jpg";
+var imgHephaestus = "images/Hephestas.jpg";
+var imgHades = "images/hades.jpg";
+var imgAphrodite = "images/Aphrodite.jpg";
 var imgZeus = "";
-var imgPoseidon = "";
-var imgHermes = "";
-var imgHades = "";
+var imgPoseidon = "images/Poseidon.jpg";
+var imgHermes = "images/HermesShoes.jpg";
+
 
 
 //variables to fill in descriptions separate from object creation:
@@ -22,7 +22,6 @@ var descripAphrodite = "";
 var descripZeus = "";
 var descripPoseidon = "";
 var descripHermes = "";
-var descripHades = "";
 
 
 
