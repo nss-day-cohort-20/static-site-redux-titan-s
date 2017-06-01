@@ -1,6 +1,9 @@
 
 
 
+/************************************************
+Flexbox Modifications
+*************************************************/
 
 
 
@@ -11,17 +14,30 @@
 /************************************************
 Contact Page Styles
 *************************************************/
-
-
-
-
-
-
-/************************************************
-Flexbox Modifications
-*************************************************/
+.flexform {
+	display: flex;
+	flex-direction: row; 
+  flex-wrap: wrap;
+}
 
 .contact {
-  display: flex;
   flex-direction: column; 
+  flex-wrap: wrap;
+  margin: 20px;
+  flex: 1 200px;
 }
+
+.contactSection{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.flexitem1,
+.flexitem2,
+.flexitem3 {
+   flex-direction: column;
+   
+}
+
+
+
