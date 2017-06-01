@@ -1,3 +1,6 @@
+/************************************************
+Nav-bar and Footer Modifications
+*************************************************/
 .nav-bar {
   background-color: deepskyblue;
   border: 4px outset #998870;
@@ -55,3 +58,52 @@ footer {
   bottom: 0;
   margin: 0 auto;
 }
+
+/************************************************
+Flexbox Modifications
+*************************************************/
+
+
+
+
+
+
+
+/************************************************
+Contact Page Styles
+*************************************************/
+.flexform {
+	display: flex;
+	flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.contact {
+  flex-direction: column; 
+  flex-wrap: wrap;
+  margin: 20px;
+  flex: 1 200px;
+}
+
+.contactSection{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.flexitem1,
+.flexitem2,
+.flexitem3 {
+   flex-direction: column;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
