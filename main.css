@@ -1,4 +1,53 @@
 
+<<<<<<< HEAD
+=======
+.nav-bar {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+}
+img {
+  height: 3em;
+  width: 3em;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+
+}
+.list a:hover {
+  background-color: skyblue;
+}
+.list li a{
+  color: white;
+  text-decoration: none;
+}
+.list li a:hover {
+  background-color: skyblue;
+  padding: 0.5em;
+
+}
+.list li a:active {
+  background-color: skyblue;
+  padding: 0.5em;
+}
+.list li {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 22px;
+  list-style: none;
+  width: 100px;
+  border-right: 4px double #e4dece;
+  border-left: 4px double #e4dece;
+  border-width: 0.3em;
+  padding: 0em 2em 0em 2em;
+
+}
+body {
+  margin: 0;
+}
+
+>>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
 
 
 /************************************************
@@ -21,6 +70,10 @@ Contact Page Styles
 }
 
 .contact {
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
   flex-direction: column; 
   flex-wrap: wrap;
   margin: 20px;
@@ -39,6 +92,7 @@ Contact Page Styles
    
 }
 
+<<<<<<< HEAD
 
 /************************************************
 About Page Styles
@@ -109,3 +163,18 @@ header a{
 
 
 
+=======
+.flexitem3{
+  order: -1;
+}
+
+.flexitem1{
+  order: -2;
+}
+
+.purchase {
+  border: 3px ridge orange;
+}
+
+
+>>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23

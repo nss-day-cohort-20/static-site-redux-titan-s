@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body>
+<!--- Contact Form, may also need to include purchase order form unless this is basically an online catalog... -->
+	<form action="" method="post" class="flexform">
+
+		<div class="contact general flexitem1">
+			<legend class="contactSection">Questions? Comments? Concerns? Contact us!</legend>
+
+			<label for="user_name">Name:</label>
+			<input type="text" id="user_name" required="required">
+			<br>
+
+			<label for="user_email">E-mail:</label>
+			<input type="email" id="user_email" required="required">
+			<br>
+
+			<label for="user_comments">How can we help?</label><br>
+			<textarea id="user_comments" cols="35" rows="7"></textarea>
+			<br>
+			<button type="submit">Submit</button>
+			<br>
+		</div> <!--- end of 'general contact' div -->
+
+		<div class="contact purchase flexitem2">
+			<legend class="contactSection">Ready to make your purchase?</legend>
+
+			<label for="purchase_name">Name:</label><br>
+			<input type="text" id="purchase_name">
+			<legend>Shipping address</legend>
+			<label for="address1">Address Line 1:</label>
+			<input type="text" id="address1">
+			<label for="address2">Address Line 2:</label>
+			<input type="text" id="address2">
+			<label for="city">City:</label>
+			<input type="text" id="city">
+			<label for="state">State:</label>
+			<input type="text" id="state" maxlength="2">
+			<label for="zip">Zip Code:</label>
+			<input type="number" id="zip" maxlength="7">
+
+			<input type="checkbox" id="terms">I have read and understood the <a href="https://nervouscitizen.files.wordpress.com/2012/12/foghorn-leghorn-its-a-joke.png">Terms and Conditions</a> of purchase.
+			<label for="creditcard">Credit Card Number:</label>
+			<input type="number" name="creditcard">
+			<label for="seccode">Security code:</label>
+			<input type="number" name="seccode" maxlength="4">
+			<input type="checkbox" id="billing">My billing address is the same as my shipping address.
+			
+			<legend>Billing address</legend>
+			<label for="address1b">Address Line 1:</label>
+			<input type="text" id="address1b">
+			<label for="address2b">Address Line 2:</label>
+			<input type="text" id="address2b">
+			<label for="cityb">City:</label>
+			<input type="text" id="cityb">
+			<label for="stateb">State:</label>
+			<input type="text" id="stateb" maxlength="2">
+			<label for="zipb">Zip Code:</label>
+			<input type="number" id="zipb" maxlength="7">
+
+
+		
+
+		<br>
+		<br><fieldset>
+
+			<legend id="product_selection">Product Selection:</legend>
+			
+			<div>
+		      <input type="checkbox" id="athena" name="product" value="athena">
+		      <label for="athena">Athena Helmet   |</label>
+		     <label for="quantity_Athena">Quantity:</label><input type="number" id="quantity_Athena" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="artemis" name="product" value="artemis">
+		      <label for="artemis">Artemis Bow   |</label>
+		     <label for="quantity_Artemis">Quantity:</label><input type="number" id="quantity_Artemis" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="kronos" name="product" value="kronos">
+		      <label for="kronos">Kronos Watch  |</label>
+		     <label for="quantity_Kronos">Quantity:</label><input type="number" id="quantity_Kronos" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="heph" name="product" value="heph">
+		      <label for="heph">Hephaestus Chains   |</label>
+		     <label for="quantity_Heph">Quantity:</label><input type="number" id="quantity_Heph" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="aphrodite" name="product" value="aphrodite">
+		      <label for="aphrodite">Aphrodite Potion   |</label>
+		     <label for="quantity_Aph">Quantity:</label><input type="number" id="quantity_Aph" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="zeus" name="product" value="zeus">
+		      <label for="zeus">Zeus Bolt   |</label>
+		     <label for="quantity_Zeus">Quantity:</label><input type="number" id="quantity_Zeus" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="posei" name="product" value="posei">
+		      <label for="posei">Poseidon Conch   |</label>
+		     <label for="quantity_Posei">Quantity:</label><input type="number" id="quantity_Posei" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="hermes" name="product" value="hermes">
+		      <label for="hermes">Hermes Shoes   |</label>
+		     <label for="quantity_Herm">Quantity:</label><input type="number" id="quantity_Herm" length="2" maxlength="2">
+		    </div>
+
+		     <div>
+		      <input type="checkbox" id="hades" name="product" value="hades">
+		      <label for="hades">Hades and Persephone excuse note   |</label>
+		     <label for="quantity_Hades">Quantity:</label><input type="number" id="quantity_Hades" length="2" maxlength="2">
+		    </div>
+
+		    <button type="submit">Submit form</button>
+
+		</fieldset>
+			  <br>
+				<button type="submit">Submit</button>
+			  <br>
+	</div>
+	
+		<div class="contact testimony flexitem3">
+
+			<legend class="contactSection">Are you already a customer? Leave us a review and share your story!</legend>
+			<label for="testimony_name">Name:</label>
+			<input type="text" id="testimony_name" required="required">
+			<br>
+
+			<label for="testimony_email">E-mail:</label>
+			<input type="email" id="testimony_email" required="required">
+			<br>
+
+			<label for="testimony_url">Website:</label>
+			<input type="URL" id="testimony_url" required="required">
+			<br>
+
+			<label for="testimony_comments">Tell us about your experience.</label><br>
+			<textarea id="testimony_comments" cols="35" rows="7"></textarea>
+			   <br>
+				<button type="submit">Submit</button>
+			  <br>
+		</div>  <!---end of testimony input div -->
+
+
+
+
+	</form>
+
+</body>
+
+</html>
