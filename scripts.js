@@ -1,15 +1,15 @@
 
 //need to input the image URLs to the image variables
-var imgAthena = "";
-var imgKronos = "";
-var imgArtemis = "";
-var imgHephaestus = "";
-var imgHades = "";
-var imgAphrodite = "";
+var imgAthena = "images/Athena.jpg";
+var imgKronos = "images/ChronosStaff.jpg";
+var imgArtemis = "images/Artemis.jpg";
+var imgHephaestus = "images/Hephestas.jpg";
+var imgHades = "images/hades.jpg";
+var imgAphrodite = "images/Aphrodite.jpg";
 var imgZeus = "";
-var imgPoseidon = "";
-var imgHermes = "";
-var imgHades = "";
+var imgPoseidon = "images/Poseidon.jpg";
+var imgHermes = "images/HermesShoes.jpg";
+
 
 
 //variables to fill in descriptions separate from object creation:
@@ -22,7 +22,6 @@ var descripAphrodite = "";
 var descripZeus = "";
 var descripPoseidon = "";
 var descripHermes = "";
-var descripHades = "";
 
 
 
@@ -50,17 +49,37 @@ var hermes = makeSummaryObject("hermes", imgHermes "Hermes Shoes", descripHermes
 var aphrodite = makeSummaryObject("aphrodite", imgAphrodite "Aphrodite Potion", descripAphrodite, '$1,100')
 var hades = makeSummaryObject("hades", imgHades "Hades and Persephone Excuse Note", descripHades, '$12,000,000')
 var zeus = makeSummaryObject("zeus", imgZeus "Zeus Bolt", descripZeus, '$2,200')
-var poseidon = makeSummaryObject("poseidon", imgPoseidon "Poseidon Conch, descripPoseidon, '$1,100' )                             
+var poseidon = makeSummaryObject("poseidon", imgPoseidon "Poseidon Conch", descripPoseidon, '$1,100')
 
 
+//To print to HTML div:
+function printHTMLToDiv(productCard) {
+
+	var cardDiv = document.getElementById("cardIterations");
+
+	cardDiv.innerHTML = productCard;
+ 
+
+}
 //Calling the makeSummaryObject function will create the objects
 //Card array below holds all these functions
 
 var cardArrayProducts = [artemis, athena, aphrodite, hades, hephaestus, hermes, kronos, poseidon, zeus];
 
+var stringHTML= "";
 
 function iterateAllArray(arr) {
 	for (var i=0; i < cardArrayProducts.length; i+= 1) {
 
+		var productCard = `<div class="card" id="${cardArrayProducts[i].id}">
+
+	
+
+	stringHTML += productCard;
+
 	}
+
+	printHTMLToDiv(stringHTML);
 }
+
+iterateAllArray(cardArrayProducts);

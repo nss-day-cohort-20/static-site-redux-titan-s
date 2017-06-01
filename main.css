@@ -81,10 +81,11 @@ Contact Page Styles
 }
 
 .contact {
+  display: flex;
   flex-direction: column; 
   flex-wrap: wrap;
   margin: 20px;
-  flex: 1 200px;
+  flex-basis:  200px;
 }
 
 .contactSection{
@@ -96,12 +97,29 @@ Contact Page Styles
 .flexitem2,
 .flexitem3 {
    flex-direction: column;
-   
+  
 }
+
+.flexitem1,
+.flexitem2 {
+  flex-grow: 1;
+}
+
+.flexitem3{
+  order: -1;
+}
+
+.flexitem2 {
+  flex-grow: 1.8;
+  order: -2;
+}
+
+
 
 body {
   margin: 0;
 }
+
 footer {
   background-color: deepskyblue;
   border: 4px outset #998870;
