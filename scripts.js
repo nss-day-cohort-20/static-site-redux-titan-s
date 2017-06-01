@@ -42,14 +42,14 @@ function makeSummaryObject(id, url, name, description, price) {
 
 
 var athena = makeSummaryObject("athena", imgAthena, "Athena Helmet", descripAthena, '$12,000')
-var kronos = makeSummaryObject("kronos", imgKronos "Kronos Watch", descripKronos, '$16,500')
-var artemis = makeSummaryObject("artemis", imgArtemis "Artemis Bow", descripArtemis, '$1,600')
-var hephaestus = makeSummaryObject("hephaestus", imgHephaestus "Hephaestus chains", descripHephaestus, '$900')
-var hermes = makeSummaryObject("hermes", imgHermes "Hermes Shoes", descripHermes, '$1,000')
-var aphrodite = makeSummaryObject("aphrodite", imgAphrodite "Aphrodite Potion", descripAphrodite, '$1,100')
-var hades = makeSummaryObject("hades", imgHades "Hades and Persephone Excuse Note", descripHades, '$12,000,000')
-var zeus = makeSummaryObject("zeus", imgZeus "Zeus Bolt", descripZeus, '$2,200')
-var poseidon = makeSummaryObject("poseidon", imgPoseidon "Poseidon Conch", descripPoseidon, '$1,100')
+var kronos = makeSummaryObject("kronos", imgKronos, "Kronos Watch", descripKronos, '$16,500')
+var artemis = makeSummaryObject("artemis", imgArtemis, "Artemis Bow", descripArtemis, '$1,600')
+var hephaestus = makeSummaryObject("hephaestus", imgHephaestus, "Hephaestus chains", descripHephaestus, '$900')
+var hermes = makeSummaryObject("hermes", imgHermes, "Hermes Shoes", descripHermes, '$1,000')
+var aphrodite = makeSummaryObject("aphrodite", imgAphrodite, "Aphrodite Potion", descripAphrodite, '$1,100')
+var hades = makeSummaryObject("hades", imgHades, "Hades and Persephone Excuse Note", descripHades, '$12,000,000')
+var zeus = makeSummaryObject("zeus", imgZeus, "Zeus Bolt", descripZeus, '$2,200')
+var poseidon = makeSummaryObject("poseidon", imgPoseidon, "Poseidon Conch", descripPoseidon, '$1,100')
 
 
 //To print to HTML div:
@@ -72,6 +72,18 @@ function iterateAllArray(arr) {
 	for (var i=0; i < cardArrayProducts.length; i+= 1) {
 
 		var productCard = `<div class="card" id="${cardArrayProducts[i].id}">
+
+								<img src=""
+
+
+
+
+
+
+
+
+
+							</div>`
 
 	
 
