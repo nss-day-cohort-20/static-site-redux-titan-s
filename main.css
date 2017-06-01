@@ -99,3 +99,17 @@ Contact Page Styles
 }
 
 
+/************************************************
+About Page Styles
+*************************************************/
+
+.nav-bar {
+  background: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 12%;
+  border: ;
+}
+
