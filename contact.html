@@ -54,11 +54,89 @@
 			<label for="seccode">Security code:</label>
 			<input type="number" name="seccode" maxlength="4">
 			<input type="checkbox" id="billing">My billing address is the same as my shipping address.
-		</div>
+			
+			<legend>Billing address</legend>
+			<label for="address1b">Address Line 1:</label>
+			<input type="text" id="address1b">
+			<label for="address2b">Address Line 2:</label>
+			<input type="text" id="address2b">
+			<label for="cityb">City:</label>
+			<input type="text" id="cityb">
+			<label for="stateb">State:</label>
+			<input type="text" id="stateb" maxlength="2">
+			<label for="zipb">Zip Code:</label>
+			<input type="number" id="zipb" maxlength="7">
+
+
+		
 
 		<br>
-		<br>
+		<br><fieldset>
 
+			<legend id="product_selection">Product Selection:</legend>
+			
+			<div>
+		      <input type="checkbox" id="athena" name="product" value="athena">
+		      <label for="athena">Athena Helmet   |</label>
+		     <label for="quantity_Athena">Quantity:</label><input type="number" id="quantity_Athena" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="artemis" name="product" value="artemis">
+		      <label for="artemis">Artemis Bow   |</label>
+		     <label for="quantity_Artemis">Quantity:</label><input type="number" id="quantity_Artemis" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="kronos" name="product" value="kronos">
+		      <label for="kronos">Kronos Watch  |</label>
+		     <label for="quantity_Kronos">Quantity:</label><input type="number" id="quantity_Kronos" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="heph" name="product" value="heph">
+		      <label for="heph">Hephaestus Chains   |</label>
+		     <label for="quantity_Heph">Quantity:</label><input type="number" id="quantity_Heph" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="aphrodite" name="product" value="aphrodite">
+		      <label for="aphrodite">Aphrodite Potion   |</label>
+		     <label for="quantity_Aph">Quantity:</label><input type="number" id="quantity_Aph" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="zeus" name="product" value="zeus">
+		      <label for="zeus">Zeus Bolt   |</label>
+		     <label for="quantity_Zeus">Quantity:</label><input type="number" id="quantity_Zeus" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="posei" name="product" value="posei">
+		      <label for="posei">Poseidon Conch   |</label>
+		     <label for="quantity_Posei">Quantity:</label><input type="number" id="quantity_Posei" length="2" maxlength="2">
+		    </div>
+
+		    <div>
+		      <input type="checkbox" id="hermes" name="product" value="hermes">
+		      <label for="hermes">Hermes Shoes   |</label>
+		     <label for="quantity_Herm">Quantity:</label><input type="number" id="quantity_Herm" length="2" maxlength="2">
+		    </div>
+
+		     <div>
+		      <input type="checkbox" id="hades" name="product" value="hades">
+		      <label for="hades">Hades and Persephone excuse note   |</label>
+		     <label for="quantity_Hades">Quantity:</label><input type="number" id="quantity_Hades" length="2" maxlength="2">
+		    </div>
+
+		    
+
+		</fieldset>
+			  <br>
+				<button type="submit">Submit</button>
+			  <br>
+	</div>
+	
 		<div class="contact testimony flexitem3">
 
 			<legend class="contactSection">Are you already a customer? Leave us a review and share your story!</legend>
@@ -76,7 +154,9 @@
 
 			<label for="testimony_comments">Tell us about your experience.</label><br>
 			<textarea id="testimony_comments" cols="35" rows="7"></textarea>
-
+			   <br>
+				<button type="submit">Submit</button>
+			  <br>
 		</div>  <!---end of testimony input div -->
 
 

@@ -1,22 +1,62 @@
-
+/************************************************
+Nav-bar and Footer Modifications
+*************************************************/
 .nav-bar {
-  background: skyblue;
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+}
+img {
+  height: 3em;
+  width: 3em;
+}
+
+.list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 12%;
-  border: ;
+  justify-content: space-around;
+  padding-left: 0;
+
+}
+.list a:hover {
+  background-color: skyblue;
 }
 .list li a{
   color: white;
   text-decoration: none;
 }
+.list li a:hover {
+  background-color: skyblue;
+  padding: 0.5em;
+
+}
+.list li a:active {
+  background-color: skyblue;
+  padding: 0.5em;
+}
 .list li {
-list-style: none;
+  font-family: 'Ruslan Display', cursive;
+  font-size: 22px;
+  list-style: none;
+  width: 100px;
+  border-right: 4px double #e4dece;
+  border-left: 4px double #e4dece;
+  border-width: 0.3em;
+  padding: 0em 2em 0em 2em;
+
 }
 body {
   margin: 0;
+}
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
 }
 
 
@@ -41,10 +81,11 @@ Contact Page Styles
 }
 
 .contact {
+  display: flex;
   flex-direction: column; 
   flex-wrap: wrap;
   margin: 20px;
-  flex: 1 200px;
+  flex-basis:  200px;
 }
 
 .contactSection{
@@ -56,9 +97,22 @@ Contact Page Styles
 .flexitem2,
 .flexitem3 {
    flex-direction: column;
-   
+  
 }
 
+.flexitem1,
+.flexitem2 {
+  flex-grow: 1;
+}
+
+.flexitem3{
+  order: -1;
+}
+
+.flexitem2 {
+  flex-grow: 1.8;
+  order: -2;
+}
 
 body {
   margin: 0;
@@ -106,3 +160,19 @@ body {
 
 
 
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
