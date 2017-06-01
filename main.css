@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
+=======
+/************************************************
+Nav-bar and Footer Modifications
+*************************************************/
+>>>>>>> f37918278a3705b5e2e25505db95b276226d3474
 .nav-bar {
   background-color: deepskyblue;
   border: 4px outset #998870;
@@ -46,6 +52,18 @@ img {
 body {
   margin: 0;
 }
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
 
 >>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
 
@@ -77,7 +95,7 @@ Contact Page Styles
   flex-direction: column; 
   flex-wrap: wrap;
   margin: 20px;
-  flex: 1 200px;
+  flex-basis:  200px;
 }
 
 .contactSection{
@@ -89,7 +107,12 @@ Contact Page Styles
 .flexitem2,
 .flexitem3 {
    flex-direction: column;
-   
+  
+}
+
+.flexitem1,
+.flexitem2 {
+  flex-grow: 1;
 }
 
 <<<<<<< HEAD
@@ -168,13 +191,74 @@ header a{
   order: -1;
 }
 
-.flexitem1{
+.flexitem2 {
+  flex-grow: 1.8;
   order: -2;
 }
 
-.purchase {
-  border: 3px ridge orange;
+body {
+  margin: 0;
+}
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
 }
 
 
+body {
+	font-family: 'barrio', sans-serif;
+	background-color: lightblue;	
+}
+
+#headline {
+	border: 3px solid;
+	width: 70%;
+	text-align: center;
+}
+
+#awards {
+	float: center;
+}
+
+#section {
+	text-align: center;
+}
+
+#individual {
+	display: none;
+}
+
+
+<<<<<<< HEAD
 >>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
+=======
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: deepskyblue;
+  border: 4px outset #998870;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+/*Anchoring footer to the bottom of the page*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
+>>>>>>> f37918278a3705b5e2e25505db95b276226d3474
