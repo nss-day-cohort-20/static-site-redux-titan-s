@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-=======
-=======
 /************************************************
 Nav-bar and Footer Modifications
 *************************************************/
->>>>>>> f37918278a3705b5e2e25505db95b276226d3474
 .nav-bar {
   background-color: deepskyblue;
   border: 4px outset #998870;
@@ -51,8 +45,11 @@ img {
 }
 body {
   margin: 0;
+  font-family: 'barrio', sans-serif;
+  background-color: lightblue;
 }
 footer {
+  font-family: sans-serif;
   background-color: deepskyblue;
   border: 4px outset #998870;
   text-align: center;
@@ -65,33 +62,17 @@ footer {
   margin: 0 auto;
 }
 
->>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
-
-
-/************************************************
-Flexbox Modifications
-*************************************************/
-
-
-
-
-
-
-
 /************************************************
 Contact Page Styles
 *************************************************/
 .flexform {
-	display: flex;
-	flex-direction: row; 
+  display: flex;
+  flex-direction: row; 
   flex-wrap: wrap;
 }
 
 .contact {
-<<<<<<< HEAD
-=======
   display: flex;
->>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
   flex-direction: column; 
   flex-wrap: wrap;
   margin: 20px;
@@ -115,78 +96,6 @@ Contact Page Styles
   flex-grow: 1;
 }
 
-<<<<<<< HEAD
-
-/************************************************
-About Page Styles
-*************************************************/
-
-body{ 
-	font: 20px font-family: 'Barrio', cursive
-	background-color: lightblue;	 	
-
- 
-}
-header{
-	background-color: blue;
-	color: white;
-	border-top: red 5px solid;
-	border-bottom: red 5px solid;
-}
-
-header a{
-	font-size: 14px;
-	text-decoration: bold;
-	color: white;
-
-}
-
-.container{ 
-	margin: auto;
-	width: 100%;
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 .flexitem3{
   order: -1;
 }
@@ -196,69 +105,20 @@ header a{
   order: -2;
 }
 
-body {
-  margin: 0;
-}
-footer {
-  background-color: deepskyblue;
-  border: 4px outset #998870;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-/*Anchoring footer to the bottom of the page*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-}
-
-
-body {
-	font-family: 'barrio', sans-serif;
-	background-color: lightblue;	
-}
-
 #headline {
-	border: 3px solid;
-	width: 70%;
-	text-align: center;
+  border: 3px solid;
+  width: 70%;
+  text-align: center;
 }
 
 #awards {
-	float: center;
+  float: center;
 }
 
 #section {
-	text-align: center;
+  text-align: center;
 }
 
 #individual {
-	display: none;
+  display: none;
 }
-
-
-<<<<<<< HEAD
->>>>>>> a32fee83cfcb79a84279ca3105a1380637bacb23
-=======
-
-
-
-
-
-body {
-  margin: 0;
-}
-
-footer {
-  background-color: deepskyblue;
-  border: 4px outset #998870;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-/*Anchoring footer to the bottom of the page*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-}
->>>>>>> f37918278a3705b5e2e25505db95b276226d3474
