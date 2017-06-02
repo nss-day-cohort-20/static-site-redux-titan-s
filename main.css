@@ -177,8 +177,8 @@ Product Page Styles
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid orange;
-  
+  margin-left: 2.8em;
+   
 } 
 
 .card {
@@ -186,7 +186,7 @@ Product Page Styles
   flex-direction: column;
   justify-content: center;
   padding: 12px;
-  border: 2px solid green;
+  border: 5px groove darkblue;
   max-width: 30%;
 }
 
