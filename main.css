@@ -5,7 +5,7 @@ Nav-bar and Footer Modifications
   background-color: deepskyblue;
   border: 4px outset #998870;
 }
-img {
+ul > img {
   height: 3em;
   width: 3em;
 }
