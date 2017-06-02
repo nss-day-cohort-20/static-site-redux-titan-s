@@ -6,7 +6,7 @@ var imgArtemis = "images/Artemis.jpg";
 var imgHephaestus = "images/Hephestas.jpg";
 var imgHades = "images/hades.jpg";
 var imgAphrodite = "images/Aphrodite.jpg";
-var imgZeus = "";
+var imgZeus = "images/zeus_bolt.jpg";
 var imgPoseidon = "images/Poseidon.jpg";
 var imgHermes = "images/HermesShoes.jpg";
 
@@ -82,9 +82,10 @@ function iterateAllArray(arr) {
 								<div class="descriptionContainer">
 								<p>${cardArrayProducts[i].description}</p>
 								</div>
+								<div class="buybtn">
 
 								<a href="contact.html" target="_blank">
-								<button>Buy Now</button> </a>
+								<button>Buy Now</button> </a></div>
 
 								</div><!---end of card with id ${cardArrayProducts[i].id}-->`
 

@@ -167,3 +167,31 @@ Contact Page Styles
 #individual {
 	display: none;
 }
+
+
+/************************************************
+Product Page Styles
+*************************************************/
+
+#cardIterations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2.8em;
+   
+} 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  border: 5px groove darkblue;
+  max-width: 30%;
+}
+
+.buybtn
+.nameContainer {
+  text-align: center;
+}
+ 
