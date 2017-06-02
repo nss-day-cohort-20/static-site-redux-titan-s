@@ -1,169 +1,186 @@
 /************************************************
 Nav-bar and Footer Modifications
 *************************************************/
+
 .nav-bar {
-  background-color: deepskyblue;
-  border: 4px outset #998870;
+    background-color: deepskyblue;
+    border: 4px outset #998870;
 }
-ul > img {
-  height: 3em;
-  width: 3em;
+
+img {
+    height: 3em;
+    width: 3em;
 }
 
 .list {
-  display: flex;
-  justify-content: space-around;
-  padding-left: 0;
-
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
 }
+
 .list a:hover {
-  background-color: skyblue;
+    background-color: skyblue;
 }
-.list li a{
-  color: white;
-  text-decoration: none;
+
+.list li a {
+    color: white;
+    text-decoration: none;
 }
+
 .list li a:hover {
-  background-color: skyblue;
-  padding: 0.5em;
-
+    background-color: skyblue;
+    padding: 0.5em;
 }
+
 .list li a:active {
-  background-color: skyblue;
-  padding: 0.5em;
+    background-color: skyblue;
+    padding: 0.5em;
 }
+
 .list li {
-  font-family: 'Ruslan Display', cursive;
-  font-size: 22px;
-  list-style: none;
-  width: 100px;
-  border-right: 4px double #e4dece;
-  border-left: 4px double #e4dece;
-  border-width: 0.3em;
-  padding: 0em 2em 0em 2em;
-
+    font-family: 'Ruslan Display', cursive;
+    font-size: 22px;
+    list-style: none;
+    width: 100px;
+    border-right: 4px double #e4dece;
+    border-left: 4px double #e4dece;
+    border-width: 0.3em;
+    padding: 0em 2em 0em 2em;
 }
+
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: lightblue;
+    margin: 0;
+    font-family: 'barrio', sans-serif;
+    background-color: lightblue;
 }
+
 footer {
-  font-family: sans-serif;
-  background-color: deepskyblue;
-  border: 4px outset #998870;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-/*Anchoring footer to the bottom of the page*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
+    font-family: sans-serif;
+    background-color: deepskyblue;
+    border: 4px outset #998870;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    /*Anchoring footer to the bottom of the page*/
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
 }
 
-/************************************************
-Career Page Styles
-*************************************************/
 
-.h1 {
-  margin-top: 0.2em;
-  display: flex;
-  justify-content: center;
-  padding: 0.2em 0em 0.2em 0em;
-  font-family: 'Ruslan Display', cursive;
-  border-bottom: 2px solid black;
-}
-.sign {
-  font-size: 22px;
-  text-decoration: underline;
-}
-.section {
-  padding-top: 1em;
-  font-size: 18px;
-}
-.jobs-container {
-  list-style-type: none;
-}
-.jobs {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 18px;
-  font-weight: bolder;
-  border-bottom: 2px solid black;
-}
-.content-container {
-  display: flex;
-  text-align: center;
-  max-width: 100%;
-}
-  
-.content-container > div {
-  min-width: 25%;
-  padding: 10px;
-}
-.content-container > div:first-child {
-  margin-right: 20px;
-}
 /************************************************
 Contact Page Styles
 *************************************************/
+
 .flexform {
-	display: flex;
-	flex-direction: row; 
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .contact {
-  display: flex;
-  flex-direction: column; 
-  flex-wrap: wrap;
-  margin: 20px;
-  flex-basis:  200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex-basis: 200px;
 }
 
-.contactSection{
-   font-size: 1.5em;
-   font-weight: bold;
+.contactSection {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .flexitem1,
 .flexitem2,
 .flexitem3 {
-   flex-direction: column;
-  
+    flex-direction: column;
 }
 
 .flexitem1,
 .flexitem2 {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
-.flexitem3{
-  order: -1;
+.flexitem3 {
+    order: -1;
 }
 
 .flexitem2 {
-  flex-grow: 1.8;
-  order: -2;
+    flex-grow: 1.8;
+    order: -2;
 }
 
 #headline {
-	border: 3px solid;
-	width: 60%;
-	text-align: center;
-	margin: auto;
-
+    border: 3px solid;
+    width: 70%;
+    text-align: center;
 }
 
 #awards {
-	float: center;
+    float: center;
 }
 
 #section {
-	text-align: center;
+    text-align: center;
 }
 
 #individual {
-	display: none;
+    display: none;
 }
+
+
+/************************************************
+About Page Styles
+*************************************************/
+
+
+
+#headline {
+    text-align: center;
+    margin: auto;
+    font-style: bolder;
+    font-size: 20px;
+}
+
+#headline2 {
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+  
+
+
+}
+
+#img{
+	justify-content: center;
+	padding-left: 1px;
+	padding-bottom: 30px;
+}
+#img1{
+	justify-content: center;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+#img2{
+	justify-content: center;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+p{
+border: 5px solid black;
+text-align: left;
+margin: auto;
+}
+
+
