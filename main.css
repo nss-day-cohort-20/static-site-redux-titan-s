@@ -5,7 +5,7 @@ Nav-bar and Footer Modifications
   background-color: deepskyblue;
   border: 4px outset #998870;
 }
-img {
+ul > img {
   height: 3em;
   width: 3em;
 }
@@ -45,8 +45,11 @@ img {
 }
 body {
   margin: 0;
+  font-family: sans-serif;
+  background-color: lightblue;
 }
 footer {
+  font-family: sans-serif;
   background-color: deepskyblue;
   border: 4px outset #998870;
   text-align: center;
@@ -59,18 +62,49 @@ footer {
   margin: 0 auto;
 }
 
-
-
 /************************************************
-Flexbox Modifications
+Career Page Styles
 *************************************************/
 
-
-
-
-
-
-
+.h1 {
+  margin-top: 0.2em;
+  display: flex;
+  justify-content: center;
+  padding: 0.2em 0em 0.2em 0em;
+  font-family: 'Ruslan Display', cursive;
+  border-bottom: 2px solid black;
+}
+.sign {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.section {
+  padding-top: 1em;
+  font-size: 18px;
+}
+.jobs-container {
+  list-style-type: none;
+}
+.jobs {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 18px;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+}
+.content-container {
+  display: flex;
+  text-align: center;
+  max-width: 100%;
+}
+  
+.content-container > div {
+  min-width: 25%;
+  padding: 10px;
+}
+.content-container > div:first-child {
+  margin-right: 20px;
+}
 /************************************************
 Contact Page Styles
 *************************************************/
@@ -114,32 +148,12 @@ Contact Page Styles
   order: -2;
 }
 
-body {
-  margin: 0;
-}
-footer {
-  background-color: deepskyblue;
-  border: 4px outset #998870;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-/*Anchoring footer to the bottom of the page*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-}
-
-
-body {
-	font-family: 'barrio', sans-serif;
-	background-color: lightblue;	
-}
-
 #headline {
 	border: 3px solid;
-	width: 70%;
+	width: 60%;
 	text-align: center;
+	margin: auto;
+
 }
 
 #awards {
@@ -155,13 +169,25 @@ body {
 }
 
 
+/************************************************
+Product Page Styles
+*************************************************/
 
+#cardIterations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2.8em;
+   
+} 
 
-
-
-
-body {
-  margin: 0;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  border: 5px groove darkblue;
+  max-width: 30%;
 }
 
 /************************************************
@@ -216,4 +242,10 @@ text-align: left;
 margin: auto;
 }
 
+
+.buybtn
+.nameContainer {
+  text-align: center;
+}
+ 
 
