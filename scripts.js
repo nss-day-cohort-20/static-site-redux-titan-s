@@ -82,6 +82,10 @@ function iterateAllArray(arr) {
 								<div class="descriptionContainer">
 								<p>${cardArrayProducts[i].description}</p>
 								</div>
+								<div class="price">
+								<h5>${cardArrayProducts[i].price}
+								</h5>
+								</div>
 								<div class="buybtn">
 
 								<a href="contact.html" target="_blank">
