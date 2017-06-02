@@ -164,3 +164,56 @@ body {
   margin: 0;
 }
 
+/************************************************
+About Page Styles
+*************************************************/
+
+
+
+#headline {
+    text-align: center;
+    margin: auto;
+    font-style: bolder;
+    font-size: 20px;
+}
+
+#headline2 {
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+  
+
+
+}
+
+#img{
+  justify-content: center;
+  padding-left: 1px;
+  padding-bottom: 30px;
+}
+#img1{
+  justify-content: center;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+#img2{
+  justify-content: center;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+p{
+border: 5px solid black;
+text-align: left;
+margin: auto;
+}
+
+
